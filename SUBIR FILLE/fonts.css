@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'TechnisysIcon';
+    src: url(css/font-tech/iconstech-webfont.eot);
+    src: url(css/font-tech/iconstech-webfont.eot?#iefix) format("embedded-opentype"), url(css/font-tech/iconstech-webfont.woff) format("woff"), url(css/font-tech/iconstech-webfont.ttf) format("truetype"), url(css/font-tech/iconstech-webfont.svg) format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+/*Estandarizacion tipo de letra roboto: light, regular, medium, bold*/
+@font-face {
+    font-family: 'roboto-light';
+    src: url(css/font-boli/Roboto-Light.eot); /* IE9 Compat Modes */
+    src: url(css/font-boli/Roboto-Light.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+    url(css/font-boli/Roboto-Light.woff2) format('woff2'), /* Super Modern Browsers */
+    url(css/font-boli/Roboto-Light.woff) format('woff'), /* Pretty Modern Browsers */
+    url(css/font-boli/Roboto-Light.ttf)  format('truetype'), /* Safari, Android, iOS */
+    url(css/font-boli/Roboto-Light.svg#svgFontName) format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'roboto-regular';
+    src: url(css/font-boli/Roboto-Regular.eot);
+    src: url(css/font-boli/Roboto-Regular.eot?#iefix) format('embedded-opentype'),
+    url(css/font-boli/Roboto-Regular.woff2) format('woff2'),
+    url(css/font-boli/Roboto-Regular.woff) format('woff'),
+    url(css/font-boli/Roboto-Regular.ttf)  format('truetype'),
+    url(css/font-boli/Roboto-Regular.svg#svgFontName) format('svg');
+}
+
+@font-face {
+    font-family: 'roboto-bold';
+    src: url(css/font-boli/Roboto-Bold.eot);
+    src: url(css/font-boli/Roboto-Bold.eot?#iefix) format('embedded-opentype'),
+    url(css/font-boli/Roboto-Bold.woff2) format('woff2'),
+    url(css/font-boli/Roboto-Bold.woff) format('woff'),
+    url(css/font-boli/Roboto-Bold.ttf)  format('truetype'),
+    url(css/font-boli/Roboto-Bold.svg#svgFontName) format('svg');
+}
+
+
+@font-face {
+    font-family: 'roboto-black';
+    src: url(css/font-boli/Roboto-Black.eot);
+    src: url(css/font-boli/Roboto-Black.eot?#iefix) format('embedded-opentype'),
+    url(css/font-boli/Roboto-Black.woff2) format('woff2'),
+    url(css/font-boli/Roboto-Black.woff) format('woff'),
+    url(css/font-boli/Roboto-Black.ttf)  format('truetype'),
+    url(css/font-boli/Roboto-Black.svg#svgFontName) format('svg');
+}
+
+@font-face {
+    font-family: 'roboto-medium';
+    src: url(css/font-boli/Roboto-Medium.eot);
+    src: url(css/font-boli/Roboto-Medium.eot?#iefix) format('embedded-opentype'),
+    url(css/font-boli/Roboto-Medium.woff2) format('woff2'),
+    url(css/font-boli/Roboto-Medium.woff) format('woff'),
+    url(css/font-boli/Roboto-Medium.ttf)  format('truetype'),
+    url(css/font-boli/Roboto-Medium.svg#svgFontName) format('svg');
+}
+
+@font-face {
+    font-family: 'ocr-a-extended';
+    src: url(css/font-boli/ocr/OCRAExtended.eot);
+    src: url(css/font-boli/ocr/OCRAExtended.eot?#iefix) format('embedded-opentype'),
+    url(css/font-boli/ocr/OCRAExtended.woff2) format('woff2'),
+    url(css/font-boli/ocr/OCRAExtended.woff) format('woff'),
+    url(css/font-boli/ocr/OCRAExtended.ttf)  format('truetype'),
+    url(css/font-boli/ocr/OCRAExtended.svg#svgFontName) format('svg');
+}
+
+
+@font-face {
+    font-family: 'lexend-Medium';
+    src: url(css/font-boli/lexend/Lexend-Medium/Lexend-Medium.eot);
+    src: url(css/font-boli/lexend/Lexend-Medium/Lexend-Medium.eot?#iefix) format('embedded-opentype'),
+    url(css/font-boli/lexend/Lexend-Medium/Lexend-Medium.woff2) format('woff2'),
+    url(css/font-boli/lexend/Lexend-Medium/Lexend-Medium.woff) format('woff'),
+    url(css/font-boli/lexend/Lexend-Medium/Lexend-Medium.ttf)  format('truetype'),
+    url(css/font-boli/lexend/Lexend-Medium/Lexend-Medium.svg#svgFontName) format('svg');
+}
+
+@font-face {
+    font-family: 'lexend-Regular';
+    src: url(css/font-boli/lexend/Lexend-Regular/Lexend-Regular.eot);
+    src: url(css/font-boli/lexend/Lexend-Regular/Lexend-Regular.eot?#iefix) format('embedded-opentype'),
+    url(css/font-boli/lexend/Lexend-Regular/Lexend-Regular.woff2) format('woff2'),
+    url(css/font-boli/lexend/Lexend-Regular/Lexend-Regular.woff) format('woff'),
+    url(css/font-boli/lexend/Lexend-Regular/Lexend-Regular.ttf)  format('truetype'),
+    url(css/font-boli/lexend/Lexend-Regular/Lexend-Regular.svg#svgFontName) format('svg');
+}

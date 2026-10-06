@@ -1,0 +1,208 @@
+/*@media (max-width: 5500px)  and (min-width: 4501px) {
+    html {
+        zoom: 200%;
+    }
+    .no-bw-firefox .custom-chart-bb {
+        zoom: 10%;
+        margin-top: 60px;
+    }
+    .no-bw-firefox .custom-chart-bb .apexcharts-text tspan {
+        font-size: 15px;
+    }
+    .no-bw-firefox .custom-chart-bb .apexcharts-xaxistooltip-text {
+        font-size: 15px!important;
+    }
+    .no-bw-firefox .custom-chart-bb .apexcharts-xaxistooltip {
+        padding: 5px 10px;
+    }
+    #PARENT_EB_PAGO_DE_SERVICIOS #EB_PAGO_DE_SERVICIOS {
+        height: 30px;
+    }
+}
+@media (max-width: 4500px)  and (min-width: 4001px) {
+    html {
+        zoom: 180%;
+    }
+    .no-bw-firefox .custom-chart-bb {
+        zoom: 25%;
+        margin-top: 60px;
+    }
+    .no-bw-firefox .custom-chart-bb .apexcharts-text tspan {
+        font-size: 15px;
+    }
+    .no-bw-firefox .custom-chart-bb .apexcharts-xaxistooltip-text {
+        font-size: 15px!important;
+    }
+    .no-bw-firefox .custom-chart-bb .apexcharts-xaxistooltip {
+        padding: 5px 10px;
+    }
+    #PARENT_EB_PAGO_DE_SERVICIOS #EB_PAGO_DE_SERVICIOS {
+        height: 30px;
+    }
+}*/
+@media (max-width: 5500px)  and (min-width: 3501px) {
+    html {
+        zoom: 170%;
+    }
+    .no-bw-firefox .custom-chart-bb {
+        zoom: 35%;
+        margin-top: 60px;
+    }
+    .no-bw-firefox .custom-chart-bb .apexcharts-text tspan {
+        font-size: 15px;
+    }
+    .no-bw-firefox .custom-chart-bb .apexcharts-xaxistooltip-text {
+        font-size: 15px!important;
+    }
+    .no-bw-firefox .custom-chart-bb .apexcharts-xaxistooltip {
+        padding: 5px 10px;
+    }
+    #PARENT_EB_PAGO_DE_SERVICIOS #EB_PAGO_DE_SERVICIOS {
+        height: 30px;
+    }
+    .no-bw-firefox .principal-logout {
+        margin-top: -450px;
+    }
+}
+@media (max-width: 3500px) and (min-width: 2501px) {
+    html {
+        zoom: 140%;
+    }
+    .no-bw-firefox .custom-chart-bb {
+        zoom: 67%;
+        margin-top: 50px;
+    }
+    .no-bw-firefox .custom-chart-bb .apexcharts-text tspan {
+        font-size: 15px;
+    }
+    .no-bw-firefox .custom-chart-bb .apexcharts-xaxistooltip-text {
+        font-size: 15px!important;
+    }
+    .no-bw-firefox .custom-chart-bb .apexcharts-xaxistooltip {
+        padding: 6px 10px;
+    }
+    #PARENT_EB_PAGO_DE_SERVICIOS #EB_PAGO_DE_SERVICIOS {
+        height: 30px;
+    }
+    .no-bw-firefox .principal-logout {
+        margin-top: -380px;
+    }
+}
+@media (max-width: 2500px) and (min-width: 2001px) {
+    html {
+        zoom: 135%;
+    }
+    .no-bw-firefox .custom-chart-bb {
+        zoom: 71%;
+        margin-top: 47px;
+    }
+    .no-bw-firefox .custom-chart-bb .apexcharts-text tspan {
+        font-size: 14px;
+    }
+    .no-bw-firefox .custom-chart-bb .apexcharts-xaxistooltip-text {
+        font-size: 14px!important;
+    }
+    .no-bw-firefox .custom-chart-bb .apexcharts-xaxistooltip {
+        padding: 7px 10px;
+    }
+    .no-bw-firefox #PARENT_EB_PAGO_DE_SERVICIOS #EB_PAGO_DE_SERVICIOS {
+        height: 25px;
+    }
+    .no-bw-firefox .principal-logout {
+        margin-top: -310px;
+    }
+}
+@media (max-width: 2000px) and (min-width: 1751px) {
+/*@media (max-width: 5500px) and (min-width: 1751px) {*/
+    html {
+        zoom: 130%;
+    }
+    .custom-chart-bb {
+        zoom: 77%;
+        margin-top: 37px;
+    }
+    .no-bw-firefox .custom-chart-bb .apexcharts-text tspan {
+        font-size: 14px;
+    }
+    .no-bw-firefox .custom-chart-bb .apexcharts-xaxistooltip-text {
+        font-size: 14px!important;
+    }
+    .no-bw-firefox .custom-chart-bb .apexcharts-xaxistooltip {
+        padding: 7px 10px;
+    }
+    .no-bw-firefox #PARENT_EB_PAGO_DE_SERVICIOS #EB_PAGO_DE_SERVICIOS {
+        height: 25px;
+    }
+    .no-bw-firefox .principal-logout {
+        margin-top: -257px;
+    }
+}
+@media (max-width: 1750px) and (min-width: 1601px) {
+    html {
+        zoom: 105%;
+    }
+    .no-bw-firefox .custom-chart-bb {
+        zoom: 97%;
+        margin-top: 10px;
+    }
+    .no-bw-firefox .custom-chart-bb.c-chart-score {
+        margin-top: -24px!important;
+        margin-left: -26px!important;
+    }
+}
+@media (max-width: 5500px) and (min-width: 1601px) {
+    .no-bw-firefox .jBox-wrapper.jBox-Modal.jBox-Default {
+        position: fixed;
+        width: 100%!important;
+        height: 100%!important;
+        top: 0;
+        left: 0;
+        inset: 0px!important;
+    }
+    .no-bw-firefox .jBox-wrapper.jBox-Modal.jBox-Default .jBox-container {
+        box-shadow: none;
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        max-height: 100%;
+        overflow-x: hidden;
+        overflow-y: auto;
+        background-color: transparent;
+    }
+    .no-bw-firefox .jBox-wrapper.jBox-Modal.jBox-Default .jBox-container .jBox-content {
+        border-radius: 5px;
+        margin: 29px auto;
+        background-color: #fff;
+    }
+    .no-bw-firefox #jBox-satisfaccionCliente .jBox-content {
+        width: 450px!important;
+        height: auto!important;
+        margin-top: 24px!important;
+    }
+    .no-bw-firefox .custom-chart-bb.c-chart-score{
+        margin: 0 auto;
+    }
+    .no-bw-firefox .label-hint .content {
+        width: 280px;
+    }
+    .no-bw-firefox .daterangepicker.show-calendar {
+        top: 725px!important;
+    }
+
+}
+@media (min-width: 1401px) {
+    .no-bw-firefox #PARENT_EB_CONSULTA_DE_DEPOSITOS_A_PLAZO #EB_CONSULTA_DE_DEPOSITOS_A_PLAZO {
+        height: 57px;
+    }
+}
+@media (max-width: 1600px) {
+    html {
+        zoom: 100%;
+    }
+    .no-bw-firefox .custom-chart-bb {
+        zoom: 100%;
+    }
+}
